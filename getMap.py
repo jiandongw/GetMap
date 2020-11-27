@@ -12,7 +12,7 @@ z=18
 #url = 'http://www.sina.com.cn'
 for x in range(LeftTop[0], RightBottom[0]):
     for y in range(LeftTop[1], RightBottom[1]):
-        url="http://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x="+str(x)+"&y="+str(y)+"&z=18"
+        url="http://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x="+str(x)+"&y="+str(y)+"&z="+str(z)
         #local='d:\\18\\'+str(x)+"\\"+str(y)+".png"
         local = 'd:\\'+str(z)+'\\' + str(x) + "\\" + str(y) + ".png"
         path='d:\\'+str(z)+'\\'+str(x)
